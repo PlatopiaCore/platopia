@@ -131,4 +131,4 @@ contrib/devtools/split-debug.sh
 
 # vagrant
 .vagrant
-
+platopia-opensource.*

@@ -3311,6 +3311,7 @@ bool ContextualCheckBlock(const Config &config, const CBlock &block,
     }
 
     // Enforce rule that the coinbase starts with serialized block height
+	/*
     if (nHeight >= consensusParams.BIP34Height) {
         CScript expect = CScript() << nHeight;
         if (block.vtx[0]->vin[0].scriptSig.size() < expect.size() ||
@@ -3320,6 +3321,7 @@ bool ContextualCheckBlock(const Config &config, const CBlock &block,
                              "block height mismatch in coinbase");
         }
     }
+	*/
 
     return true;
 }

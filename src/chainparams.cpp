@@ -125,7 +125,7 @@ public:
         consensus.nBlockReward = OldChainSubsidyForBlock(1440001);
         consensus.nGenesisReward = OldChainSubsidyTillBlock(1440000) + 39168290492526951 + OldChainLotteryTillCentury(centuryForBlock(1440000));
 
-        consensus.BIP34Height = 227931;
+        consensus.BIP34Height = 500000;
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb4"
                                        "4ab7bd1b19115dd6a759c0808b8");
         // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
